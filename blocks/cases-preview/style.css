@@ -1,0 +1,44 @@
+.cases-preview {
+  padding: 28px 0 16px;
+}
+
+.cases-preview__img {
+  -ms-grid-column-span: 2;
+  grid-column: 2 span;
+  padding-top: 32.5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 1440px) {
+  .cases-preview {
+    padding: 41px 0 14px;
+  }
+
+  .cases-preview__img {
+    padding-top: 39.8%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .cases-preview {
+    padding: 30px 0 15px;
+  }
+
+  .cases-preview__img {
+    padding-top: 44.3%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .cases-preview {
+    padding: 7px 0;
+  }
+
+  .cases-preview__img {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    padding-top: 62%;
+  }
+}
